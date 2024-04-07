@@ -28,4 +28,4 @@ In Gesture Runner, your character is controlled with hand gestures. Currently, o
 - To stay running on the ground, keep your right hand in a closed fist.
 - To jump, open your hand and splay your fingers.
 
-Spacebar starts (or restarts) a run, and Q quits the game.
+While on the title screen, Spacebar starts a new run, and Q quits the game.
