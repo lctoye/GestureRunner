@@ -152,9 +152,15 @@ while True:
             obstacle_group.add(Obstacle(choice(['fly', 'snail', 'snail', 'snail'])))
 
         else:
-            if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE and not game_active:
-                game_active = True
-                start_time = int(pygame.time.get_ticks() / 1000)
+            if not game_active:
+                with open('hand_detection_result.txt', 'r') as f:
+                    result = f.readline().strip()
+                if result == 'jump':
+                    game_active = True
+                    start_time = int(pygame.time.get_ticks() / 1000)
+                if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                    game_active = True
+                    start_time = int(pygame.time.get_ticks() / 1000)
 
     # Gesture detection logic
     if game_active:
