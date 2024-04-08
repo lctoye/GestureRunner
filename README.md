@@ -1,5 +1,7 @@
 ![title](https://github.com/lctoye/GestureRunner/assets/111930021/47400c5b-c43b-4a68-af5f-a33f4411644b)
 
+### Liam Toye & Dai Dung Lam
+
 Gesture Runner is an endless runner game in Python which uses hand gestures to control the character.
 
 ## Requirements
