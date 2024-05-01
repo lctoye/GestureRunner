@@ -26,7 +26,7 @@ Gameplay is very straightforward. Your character endlessly runs towards the righ
 ## Controls
 ### ✊ RUN
 ### 🖐️ JUMP
-In Gesture Runner, your character is controlled with hand gestures. Currently, only **right hand** tracking is supported. Sorry lefties :(
+In Gesture Runner, your character is controlled with hand gestures.
 - To stay running on the ground, keep your right hand in a closed fist position:
   ![image](https://github.com/lctoye/GestureRunner/assets/111930021/fe53704f-94a9-4288-9766-bd37a937c216)
 - To jump, open your hand and splay out your fingers:
